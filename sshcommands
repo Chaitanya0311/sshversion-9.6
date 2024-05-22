@@ -19,3 +19,5 @@ sudo dpkg -i apt_1.6.12_amd64.deb
 sudo apt-get install -f
 
 
+wget http://us.archive.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.9.3_amd64.deb
+dpkg -i apt_1.9.3_amd64.deb
