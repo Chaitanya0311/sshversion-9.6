@@ -9,4 +9,7 @@ make
 sudo make install 
 cd /usr/sbin sudo mv sshd sshd.bak 
 sudo cp /usr/local/sbin/sshd sshd 
-sudo reboo
+sudo reboot
+
+wget http://mirrors.kernel.org/ubuntu/pool/main/a/apt/apt_2.0.6_amd64.deb
+
