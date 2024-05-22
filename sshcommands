@@ -11,5 +11,11 @@ cd /usr/sbin sudo mv sshd sshd.bak
 sudo cp /usr/local/sbin/sshd sshd 
 sudo reboot
 
-wget http://mirrors.kernel.org/ubuntu/pool/main/a/apt/apt_2.0.6_amd64.deb
+wget http://archive.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.6.12_amd64.deb
+
+
+sudo dpkg -i apt_1.6.12_amd64.deb
+
+sudo apt-get install -f
+
 
